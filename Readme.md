@@ -73,10 +73,10 @@
 toxic_dashboard/
 ├── src/                      # Исходный код пайплайна
 │   ├── __init__.py           
-│   ├── text_cleaner.py       # Хардкорная очистка текста и RegEx
+│   ├── text_cleaner.py       # Очистка текста
 │   └── model_handler.py      # Загрузка весов и инференс
 ├── images/                   # Скриншоты и графики для README
-├── app.py                    # Пользовательский интерфейс (Streamlit)
+├── app.py                    # Пользовательский интерфейс
 ├── requirements.txt          # Зависимости
 ├── Dockerfile                # Инструкции для сборки образа
 └── toxic_classifier.joblib   # Обученные веса модели и векторизаторы
